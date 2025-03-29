@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Global</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/project-modal.css">
+  <link rel="stylesheet" href="assets/css/mobile-dialog.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+<div class="mobile-dialog">
+  <div class="mobile-dialog-content">
+    <i class="fas fa-desktop"></i>
+    <h3>Desktop Experience Recommended</h3>
+    <p>For the best experience, please view this website on a desktop device.</p>
+    <button class="mobile-dialog-close">Continue Anyway</button>
+  </div>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" alt="RoboTech">
+            <p>RoboTech</p>
+          </a>
+          <button class="header--cta cta">Explore Us</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Projects</span></li>
+            <li><span>Team</span></li>
+            <li><span>Contact us</span></li>
+            <!-- <li><span>Join Us</span></li> -->
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Robotech<br>Team</h1>
+                <button onclick="document.querySelector('.side-nav li:nth-child(2)').click()">View Projects
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/robotics-hero-removebg-preview.png" alt="Robotitech">
+              </div>
+              <div class="intro--options">
+                <a href="#0" onclick="document.querySelector('.side-nav li:nth-child(2)').click()">
+                  <h3>Computer Vision</h3>
+                  <p>Advanced face recognition and object detection systems for security and automation.</p>
+                </a>
+                <a href="#0" onclick="document.querySelector('.side-nav li:nth-child(2)').click()">
+                  <h3>Smart Automation</h3>
+                  <p>Intelligent systems for fire detection and smart farming using IoT and AI.</p>
+                </a>
+                <a href="#0" onclick="document.querySelector('.side-nav li:nth-child(2)').click()">
+                  <h3>Robotics & AI</h3>
+                  <p>Cutting-edge robotics solutions powered by machine learning and neural networks.</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Our Projects</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0" class="project-trigger" data-project="drone">
+                      <div class="slider--item-image">
+                        <img src="assets/img/fire-detection5.jpeg" alt="Fire Detection System">
+                      </div>
+                      <p class="slider--item-title">Fire Detection System</p>
+                      <p class="slider--item-description">AI-powered fire detection system with real-time monitoring and alerts.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0" class="project-trigger" data-project="arm">
+                      <div class="slider--item-image">
+                        <img src="assets/img/smart-farming-system.jpeg" alt="Smart Farming System">
+                      </div>
+                      <p class="slider--item-title">Smart Farming System</p>
+                      <p class="slider--item-description">IoT-based agricultural automation with disease detection.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0" class="project-trigger" data-project="vision">
+                      <div class="slider--item-image">
+                        <img src="assets/img/vision-1.jpeg" alt="Face Recognition System">
+                      </div>
+                      <p class="slider--item-title">Face Recognition System</p>
+                      <p class="slider--item-description">Advanced attendance system with anti-spoofing capabilities.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h2>Meet<br>Our<br>Team</h2>
+                <a href="#0" onclick="document.querySelector('.side-nav li:nth-child(4)').click()">Contact Us
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+                <img src="assets/img/about-visual.png" alt="About Us">
+              </div>
+              <div class="about--options">
+                <a href="#0" onclick="openTeamModal('vision-specialist')">
+                  <h4>AI Engineer</h4>
+                </a>
+                <a href="#0" onclick="openTeamModal('ai-specialist')">
+                  <h4>AI & ML Specialist</h4>
+                </a>
+                <a href="#0" onclick="openTeamModal('hardware-engineer')">
+                  <h4>Hardware Engineer</h4>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <h2>Get in Touch</h2>
+                    <p class="contact-intro">Feel free to reach out to our team members for collaboration or inquiries</p>
+                    
+                    <div class="contact-grid">
+                      <div class="team-contact">
+                        <div class="contact-header">
+                          <img src="assets/img/member1.png" alt="Chaymaa Zahedi">
+                          <h4>Chaymaa Zahedi</h4>
+                          <span>AI Engineer</span>
+                        </div>
+                        <div class="contact-info">
+                          <a href="mailto:chayamaazahedi2003@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            chayamaazahedi2003@gmail.com
+                          </a>
+                          <a href="tel:+212614047462">
+                            <i class="fas fa-phone"></i>
+                            +212 614047462
+                          </a>
+                          <a href="https://www.linkedin.com/in/zahedichaymaa" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn Profile
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="team-contact">
+                        <div class="contact-header">
+                          <img src="assets/img/member2.png" alt="Assia Bouamir">
+                          <h4>Assia Bouamir</h4>
+                          <span>AI & ML Specialist</span>
+                        </div>
+                        <div class="contact-info">
+                          <a href="mailto:assialsm0@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            assialsm0@gmail.com
+                          </a>
+                          <a href="tel:+2120715412576">
+                            <i class="fas fa-phone"></i>
+                            +212 715412576
+                          </a>
+                          <a href="https://www.linkedin.com/in/assiabouamir/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn Profile
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="team-contact">
+                        <div class="contact-header">
+                          <img src="assets/img/member3.jpeg" alt="Mustapha Mensouri">
+                          <h4>Mustapha Mensouri</h4>
+                          <span>Hardware Engineer</span>
+                        </div>
+                        <div class="contact-info">
+                          <a href="mailto:mustapha.mensouri@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            mustapha.mensouri@gmail.com
+                          </a>
+                          <a href="tel:+212634963922">
+                            <i class="fas fa-phone"></i>
+                            +212 634-963922
+                          </a>
+                          <a href="https://www.linkedin.com/in/mustaphamensouri/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn Profile
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- <li class="l-section section">
+            <div class="hire">
+              <h2>Let's Work Together</h2>
+              <form class="work-request">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" value="robotics">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Robotics Project
+                    </label>
+                    <input id="opt-2" type="checkbox" value="ai">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      AI Development
+                    </label>
+                    <input id="opt-3" type="checkbox" value="iot">
+                    <label for="opt-3">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      IoT Solutions
+                    </label>
+                  </span>
+                  <span class="options-b">
+                    <input id="opt-4" type="checkbox" value="vision">
+                    <label for="opt-4">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Computer Vision
+                    </label>
+                    <input id="opt-5" type="checkbox" value="automation">
+                    <label for="opt-5">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Smart Automation
+                    </label>
+                    <input id="opt-6" type="checkbox" value="consulting">
+                    <label for="opt-6">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Technical Consulting
+                    </label>
+                  </span>
+                </div>
+                <div class="work-request--information">
+                  <div class="information-name">
+                    <input id="name" type="text" spellcheck="false">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input id="email" type="email" spellcheck="false">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <input type="submit" value="Send Request">
+              </form>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Projects</li>
+    <li>Team</li>
+    <li>Contact us</li>
+    <!-- <li>Join Us</li> -->
+  </ul>
+</div>
+
+<!-- Project Details Modals -->
+<div class="project-modal" id="drone-project">
+  <div class="project-modal--content">
+    <span class="close-modal">&times;</span>
+    <h2>Fire Detection System with AI</h2>
+    <div class="project-details">
+      <div class="project-image-carousel">
+        
+        <div class="carousel-container">
+          
+          <div class="carousel-slide">
+            <img src="assets/img/fire-detection5.jpeg" alt="fire-detection 1">
+          </div>
+          <div class="carousel-slide">
+            <div class="video-container">
+              <iframe 
+                src="https://www.youtube.com/embed/zdFhL5z31As" 
+                title="Fire Detection System Demo"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/img/fire-detection4.jpeg" alt="fire-detection 1">
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/img/fire-detection1.png" alt="fire-detection 1">
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/img/fire-detection2.png" alt="fire-detection 2">
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/img/fire-detection3.png" alt="fire-detection 3">
+          </div>
+        </div>
+        <button class="carousel-button prev">❮</button>
+        <button class="carousel-button next">❯</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="project-info">
+        <h3>Project Overview</h3>
+        <p>This project focuses on developing a fire detection system using embedded components to automate the detection of fire hazards in specific areas. The system leverages sensors and real-time image analysis to quickly identify fire presence, thereby reducing reaction time in emergencies. It is designed to immediately trigger alerts when a fire is detected to minimize damage and inform the relevant individuals and systems. The system also offers the capability to store video clips of incidents and send notifications via SMS and email.</p>
+        
+        <h3>Key Features</h3>
+        <ul>
+          <li>Fire Detection: Utilizes appropriate sensors (e.g., gas sensors, temperature sensors) to detect fire indicators such as flammable gases or abnormal temperature increases.</li>
+          <li>Visual Detection: A camera captures images that are analyzed in real-time using AI-based fire detection models.</li>
+          <li>Reactions to Fire Detection: When fire is detected, the system activates alarms (sound, LED light, water vapor) and sends alerts via SMS and email, including video clips of the incident.</li>
+          <li>Data Storage: Incident video clips, along with timestamps and sensor data, are stored for future reference.</li>
+          <li>Remote Notifications: Automatic alerts are sent through SMS and email, including video clips, ensuring immediate response.</li>
+          <li>Image Processing: The system allows for image processing either locally (on the embedded system) or externally for better speed and alert efficiency.</li>
+        </ul>
+
+        <h3>Technologies Used</h3>
+        <ul>
+          <li>Raspberry Pi - Used as the main embedded platform for running the system and handling data processing.</li>
+          <li>Camera - Captures real-time images for fire detection using AI models.</li>
+          <li>DHT11 - Used for temperature and humidity measurement to detect abnormal conditions that may indicate fire.</li>
+          <li>MQ2 - A gas sensor used for detecting flammable gases, which can indicate the presence of fire or smoke.</li>
+          <li>Buzzer - Used for sound alerts when fire is detected.</li>
+          <li>LED - Visual alert (e.g., lights up when fire is detected).</li>
+          <li>AI Model in TFLite - A TensorFlow Lite model used for real-time fire detection and image classification.</li>
+          <li>Flask - A web framework used to create an interface for controlling and monitoring the system.</li>
+          <li>Streamlit - Used to create a user-friendly web dashboard to display system status and alerts.</li>
+          <li>Infobip - Provides SMS and email notification services to alert users remotely when a fire is detected.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-modal" id="arm-project">
+  <div class="project-modal--content">
+    <span class="close-modal">&times;</span>
+    <h2>Smart Farming System</h2>
+    <div class="project-details">
+      <div class="project-image-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="assets/img/smart-farming-system.jpeg" alt="smart farming system">
+          </div>
+          <div class="carousel-slide">
+            <div class="video-container">
+              <iframe 
+                src="https://www.youtube.com/embed/t_-jtcRg7M0" 
+                title="Smart Farming System Demo"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-button prev">❮</button>
+        <button class="carousel-button next">❯</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="project-info">
+        <h3>Project Overview</h3>
+        <p>A smart farming system leveraging IoT and AI to automate irrigation based on environmental sensors and detect plant diseases using AI, aimed at optimizing resource use and enhancing crop health.</p>
+        
+        <h3>Key Features</h3>
+        <ul>
+          <li>Real-time soil moisture, temperature, and humidity monitoring.</li>
+          <li>The system keeps track of component health and automatically detects any sensor malfunctions.</li>
+          <li>Automated irrigation</li>
+          <li>Plant disease detection via CNN model trained on the PlantVillage dataset</li>
+          <li>Web dashboard for data visualization, irrigation history, and notifications.</li>
+          <li>The continuous collection and storage  of data</li>
+          <li>Email alerts for disease detection and system events.</li>
+          
+        </ul>
+
+        <h3>Technologies Used</h3>
+        
+        <div class="tech-section">
+          <div class="tech-group">
+            <h4>Hardware Components</h4>
+            <ul>
+              <li>DHT11 (Temperature & Humidity Sensor)</li>
+              <li>Soil Moisture Sensor</li>
+              <li>ESP32CAM (Camera Module)</li>
+              <li>ESP32WROOM (Main Controller)</li>
+              <li>Water Pump System</li>
+            </ul>
+          </div>
+
+          <div class="tech-group">
+            <h4>Software Stack</h4>
+            <ul>
+              <li>Python & Flask (Backend)</li>
+              <li>React JS (Frontend)</li>
+              <li>NodeRed (Flow Programming)</li>
+              <li>TensorFlow (CNN Models)</li>
+              <li>MySQL Database</li>
+            </ul>
+          </div>
+
+          <div class="tech-group">
+            <h4>Communication</h4>
+            <ul>
+              <li>Wi-Fi (Local Network)</li>
+              <li>MQTT Protocol</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-modal" id="vision-project">
+  <div class="project-modal--content">
+    <span class="close-modal">&times;</span>
+    <h2>Intelligent Attendance Management and Liveliness Detection System</h2>
+    <div class="project-details">
+      <div class="project-image-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="assets/img/vision-1.jpeg" alt="Vision System Interface">
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/img/vision-2.jpeg" alt="Object Detection Demo">
+          </div>
+        </div>
+        <button class="carousel-button prev">❮</button>
+        <button class="carousel-button next">❯</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="project-info">
+        <h3>Project Overview</h3>
+        <p>During our academic experience, we observed that manual attendance taking using paper sheets leads to a significant time loss and is prone to fraud, where one student signs in for another. To solve this problem, we developed an intelligent system that combines embedded components and AI algorithms to ensure automated and secure attendance management.</p>
+        
+        <h3>Key Features</h3>
+        <ul>
+          <li> Full Automation – Eliminates manual attendance sheets and saves time.</li>
+          <li> Enhanced Security – Prevents fraud using facial recognition and anti-spoofing techniques.</li>
+          <li>Real-Time Monitoring – Can be integrated with a web interface for attendance tracking.</li>
+          <li>Time Tracking – Logs entry and exit timestamps to monitor attendance duration.</li>
+          <li>Web API Communication – Ensures seamless data transfer between ESP32 and the server.</li>
+          <li>User-Friendly System – Compact, efficient, and functional both locally and online.</li>
+        </ul>
+
+        <h3>Technologies Used</h3>
+        <ul>
+          <li>ESP32-CAM – Microcontroller with an integrated camera for facial recognition.</li>
+          <li>PIR Sensor – Motion detection to optimize image capture.</li>
+          <li>MTCNN + FaceNet – Face detection and feature extraction.</li>
+          <li>SVM (Support Vector Machine) – Classification model for identifying known faces.</li>
+          <li>Haar Cascade + Anti-Spoofing Model – Eye blink detection and spoofing prevention for printed or replay attacks.</li>
+          <li> Flask API – Web service for sending captured images to a server for processing.</li>
+        </ul>
+        <h3>System Workflow:</h3>
+        <ul>
+        <li>Presence Detection using the PIR sensor, which triggers the ESP32-CAM.</li>
+        <li>Face Detection via MTCNN once the image is captured.</li>
+        <li>Feature Extraction using FaceNet for facial embeddings.</li>
+        <li>Identity Verification through a pre-trained SVM model.</li>
+        <li> Spoofing Attack Prevention:Eye blink detection with Haar Cascade + Anti-spoofing model to detect printed or replay attacks</li>
+        <li>Attendance Validation:The system records the entry and exit times of each individual.</li>
+        <li> Flask API Integration:ESP32-CAM sends images to a Flask server via HTTP requests + The server processes the image, verifies the identity, and logs attendance.</li>
+        <li> Real-Time Notifications: If unauthorized access or spoofing is detected, an instant notification is sent to the responsible person (e.g., instructor, administrator) , A notification with the entry or exit timestamp is also sent upon attendance verification.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Team Member Modal Windows -->
+<div class="team-modal" id="vision-specialist-modal">
+  <div class="team-modal--content">
+    <span class="close-modal" onclick="closeTeamModal('vision-specialist')">&times;</span>
+    <div class="member-profile">
+      <div class="member-header">
+        <div class="member-image">
+          <img src="assets/img/member1.png" alt="Chaymaa Zahedi - AI Engineer">
+        </div>
+        <div class="member-title">
+          <h2>Chaymaa Zahedi</h2>
+          <h3>AI Engineer</h3>
+        </div>
+      </div>
+      <div class="member-info">
+        <p>Lead AI engineer specializing in developing intelligent systems and machine learning solutions. Expert in creating advanced neural networks and implementing cutting-edge AI algorithms for robotics applications.</p>
+        <h4>Expertise</h4>
+        <ul>
+          <li>Machine Learning & Deep Learning</li>
+          <li>Neural Network Architecture</li>
+          <li>Natural Language Processing</li>
+          <li>TensorFlow & PyTorch</li>
+        </ul>
+        <h4>Notable Projects</h4>
+        <ul>
+          <li>Intelligent Fire Detection System</li>
+          <li>Smart Farming AI Solution</li>
+          <li>Predictive Maintenance Models</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="team-modal" id="ai-specialist-modal">
+  <div class="team-modal--content">
+    <span class="close-modal" onclick="closeTeamModal('ai-specialist')">&times;</span>
+    <div class="member-profile">
+      <div class="member-header">
+        <div class="member-image">
+          <img src="assets/img/member2.png" alt="Assia Bouamir - AI & ML Specialist">
+        </div>
+        <div class="member-title">
+          <h2>Assia Bouamir</h2>
+          <h3>AI & ML Specialist</h3>
+        </div>
+      </div>
+      <div class="member-info">
+        <p>Expert in machine learning and neural networks, specializing in developing intelligent systems for robotics applications and computer vision solutions.</p>
+        <h4>Expertise</h4>
+        <ul>
+          <li>Neural Networks & Deep Learning</li>
+          <li>Computer Vision Systems</li>
+          <li>Machine Learning Algorithms</li>
+          <li>Data Analytics & Processing</li>
+        </ul>
+        <h4>Notable Projects</h4>
+        <ul>
+          <li>Smart Farming AI System</li>
+          <li>Face Recognition System</li>
+          <li>Object Detection Models</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="team-modal" id="hardware-engineer-modal">
+  <div class="team-modal--content">
+    <span class="close-modal" onclick="closeTeamModal('hardware-engineer')">&times;</span>
+    <div class="member-profile">
+      <div class="member-header">
+        <div class="member-image">
+          <img src="assets/img/member3.jpeg" alt="Mustapha Mensouri - Hardware Engineer">
+        </div>
+        <div class="member-title">
+          <h2>Mustapha Mensouri</h2>
+          <h3>Hardware Engineer</h3>
+        </div>
+      </div>
+      <div class="member-info">
+        <p>Specialized in embedded systems and IoT solutions, with extensive experience in designing and implementing hardware solutions for robotics and automation projects.</p>
+        <h4>Expertise</h4>
+        <ul>
+          <li>Embedded Systems Design</li>
+          <li>IoT Architecture & Integration</li>
+          <li>Circuit Design & PCB Layout</li>
+          <li>Sensor Integration & Robotics</li>
+        </ul>
+        <h4>Notable Projects</h4>
+        <ul>
+          <li>Fire Detection Hardware System</li>
+          <li>IoT-based Smart Farming</li>
+          <li>Automated Security Systems</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+<script src="assets/js/project-modal.js"></script>
+<script src="assets/js/team-details.js"></script>
+<script src="assets/js/mobile-dialog.js"></script>
+</body>
+</html>
